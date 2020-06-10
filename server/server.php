@@ -16,12 +16,27 @@ $msg = [
     'image' => '',
 ];
 
+/**
+ * You can find the full list of pre-defined keys for making notification messages in README.md file
+ * 
+ * @example
+ * Notification message:
+ * $payload = [
+ *   'notification' => $msg
+ *   'condition' => '\'<<TOPIC_NAME>>\' in topics',  // topic
+ *   'registration_ids' => $registrationIds, // hardware id
+ * ];
+ * 
+ * Data message:
+ * $payload = [
+ *   'data' => $msg
+ *   'condition' => '\'<<TOPIC_NAME>>\' in topics',  // topic
+ *   'registration_ids' => $registrationIds, // hardware id
+ * ];
+ */ 
 $payload = [
-    // 'condition' => '\'announcements\' in topics',
-    // 'notification' => $msg
-    // 'registration_ids' => $registrationIds,
-    // 'data' => $msg
-];
+    // ....
+]
 
 $ch = curl_init();
 curl_setopt($ch, CURLOPT_URL, 'https://fcm.googleapis.com/fcm/send');

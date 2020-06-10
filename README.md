@@ -107,3 +107,7 @@ Steps:
 - [Web fundamentals - Adding Push Notifications to a Web App
 ](https://developers.google.com/web/fundamentals/codelabs/push-notifications)
 - [PHP-FCM Documentation](https://php-fcm.readthedocs.io/en/latest/)
+- Full list of predefined keys available for building notification messages
+  - [HTTP v1 Protocol notification object](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#Notification)
+  - [Legacy HTTP Protocol notification payload](https://firebase.google.com/docs/cloud-messaging/http-server-ref#notification-payload-support)
+  - [XMPP Protocol notification payload](https://firebase.google.com/docs/cloud-messaging/xmpp-server-ref#notification-payload-support)
